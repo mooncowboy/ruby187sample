@@ -20,9 +20,9 @@ development:
   reconnect: false
   database: sample_development
   pool: 5
-  username: root
-  password:
-  host: localhost
+  username: <%= ENV['DEVELOPMENT_DATABASE_USERNAME'] %>
+  password: <%= ENV['DEVELOPMENT_DATABASE_PASSWORD'] %>
+  host: <%= ENV['DEVELOPMENT_DATABASE_HOST'] %>
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
