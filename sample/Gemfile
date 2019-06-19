@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+# FROM https://github.com/makandra/gemika/blob/master/Gemfile.2.3.mysql2
 # Ruby
 ruby '< 2'
 
